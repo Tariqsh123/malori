@@ -22,70 +22,59 @@
 
 <body class="body-home">
     <div class="page-container-x">
-        <div class="pagetop-container-home">
-            <div class="nav-logo-container">
-                <!-- MOBILE NAVIGATION -->
-                <div class="grid-container">
-                    <div class="grid-x align-center hide-for-medium">	
-                        <div class="cell align-center">
-                            <div id="offcanvas-full-screen" class="offcanvas-full-screen" data-off-canvas data-transition="overlap">
-                                <div class="offcanvas-full-screen-inner">
-                                    <button class="offcanvas-full-screen-close" aria-label="Close menu" type="button" data-close>
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    <ul class="offcanvas-full-screen-menu">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Books</a></li>
-                                        <li><a href="#">News</a></li>
-                                        <li><a href="#">Events</a></li>
-                                        <li><a href="#">Extras</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="off-canvas-content" data-off-canvas-content>
-                                <div class="mobile-nav-rk">
-                                    <div class="top-bar-rightx text-center">
-                                        <button class="hamburger-rk" type="button" data-toggle="offcanvas-full-screen">
-                                            MENU <i class="fa-duotone fa-bars"></i>	
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-container">
-                    <div class="grid-x grid-padding-x align-middle align-center">
-                        <div class="cell large-6 medium-6 small-10">
-                            <div class="logo-head text-center">
-                                <a href="#">
-                                    <h1 style="font-size: 80px; text-align: center;color: white;text-shadow: 1px 1px 3px white;text-transform: none;">Humavindu</h1>
-                                    <!-- <img src="https://malorieblackman.co.uk/zinc/logo/malorie-logo-white-ds@4x.png" /> -->
-                                </a>
-                            </div>
-                        </div>
-                        <div class="cell large-12 medium-12 small-12">
-                            <div class="show-for-medium">
-                                <div class="navigation-container medium-text-center">
-                                    <ul class="main-navigation">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Books</a></li>
-                                        <li><a href="#">News</a></li>
-                                        <li><a href="#">Events</a></li>
-                                        <li><a href="#">Extras</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- // HEADER + NAVIGATION -->
-            </div>
-        </div>
+        <div class="navbar">
+    <div class="logo">
+        <img src="images/nana logo.png" alt="logo">
+    </div>
+
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Books</a>
+        <a href="#">News</a>
+        <a href="#">Events</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="hamburger" id="openBtn">☰</div>
+</div>
+
+<!-- BACKDROP -->
+<div class="overlay-bg" id="overlayBg"></div>
+
+<!-- SIDE MENU -->
+<div class="overlay-menu" id="menu">
+    <div class="close-btn" id="closeBtn">✖</div>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Books</a>
+    <a href="#">News</a>
+    <a href="#">Events</a>
+    <a href="#">Contact</a>
+</div>
+
+<script>
+const openBtn = document.getElementById("openBtn");
+const closeBtn = document.getElementById("closeBtn");
+const menu = document.getElementById("menu");
+const overlayBg = document.getElementById("overlayBg");
+
+openBtn.addEventListener("click", () => {
+    menu.classList.add("active");
+    overlayBg.classList.add("active");
+    document.body.style.overflow = "hidden";
+});
+
+closeBtn.addEventListener("click", closeMenu);
+overlayBg.addEventListener("click", closeMenu);
+
+function closeMenu() {
+    menu.classList.remove("active");
+    overlayBg.classList.remove("active");
+    document.body.style.overflow = "auto";
+}
+</script>
+
         <div class="hero-image">
     <img src="images/author.jpeg" alt="Author">
 </div>
