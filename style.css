@@ -1,0 +1,2305 @@
+/* @override
+	https://malorie.frequency.ie/zinc/css/mb01.css
+*/
+
+/* @group BLEND MODES */
+
+.blend-mode {background-blend-mode: normal; }
+.blend-mode {background-blend-mode: multiply; }
+.blend-mode {background-blend-mode: screen; }
+.blend-mode {background-blend-mode: overlay; }
+.blend-mode {background-blend-mode: darken; }
+.blend-mode {background-blend-mode: lighten; }
+.blend-mode {background-blend-mode: color-dodge; }
+.blend-mode {background-blend-mode: color-burn; }
+.blend-mode {background-blend-mode: hard-light; }
+.blend-mode {background-blend-mode: soft-light; }
+.blend-mode {background-blend-mode: difference; }
+.blend-mode {background-blend-mode: exclusion; }
+.blend-mode {background-blend-mode: hue; }
+.blend-mode {background-blend-mode: saturation; }
+.blend-mode {background-blend-mode: color; }
+.blend-mode {background-blend-mode: luminosity; }
+
+/* @end */
+
+/* @group Colour VARS COPYX */
+
+.01 {color: var(--colour_one_dark); 
+}
+.01 {color: var(--colour_two_dark); 
+}
+.01 {color: var(--colour_two_medium); 
+}
+.01 {color: var(--colour_three_medium); 
+}
+.01 {color: var(--colour_four_light); 
+}
+.01 {color: var(--colour_five_light); 
+}
+.01 {color: var(--colour_two_dark); 
+}
+.01 {color: var(--universal_light); 
+}
+.01 {color: var(--universal_dark); 
+}
+
+/* @end */
+
+/* @group Colour VARS 22 */
+
+/* Color Theme Swatches in Hex */
+#730240 {background-color: #730240; }
+#79004e {background-color: #79004e; }
+#F2B705 {background-color: #F2B705; }
+#F29F05 {background-color: #F29F05; }
+#F25C05 {background-color: #F25C05; }
+
+/* @end */
+
+
+
+/* @group Colour Vars */
+
+:root {
+  --colour_one_dark: #730240;
+  --colour_two_dark: #79004e;
+  --colour_two_medium: #B51919;
+  --colour_three_medium: #F25C05;
+  --colour_four_light: #F2B705;
+  --colour_five_light: #F29F05;
+  --universal_light: #FFFFFF;
+  --universal_dark: #000000;
+}
+
+/* @end */
+
+
+
+
+/* ---------------SITEWIDE--------------- */
+
+/* @group Base */
+
+body {
+font: 1.4rem graveur-variable, sans-serif;
+font-variation-settings: "opsz" 25, "wght" 500;
+}
+
+.body-home {
+background: url(https://malorieblackman.co.uk/zinc/img/mb-graphic-style-22.jpg) 0 -10px no-repeat white;
+	background-size: 100%;
+}
+
+.body-about {
+background: url(/zinc/img/mb-graphic-style-10.jpg) 0 -100px no-repeat white;
+	background-size: 100%;
+}
+
+.body-books {
+background: url(/zinc/img/mb-graphic-style-04.jpg) 0 -100px no-repeat white;
+	background-size: 100%;
+}
+
+.body-news {
+background: url(/zinc/img/mb-graphic-style-20.jpg) 0 -100px no-repeat white;
+	background-size: 100%;
+}
+
+.body-events {
+background: url(/zinc/img/mb-graphic-style-21.jpg) 0 -100px no-repeat white;
+	background-size: 100%;
+}
+
+.body-extras {
+background: url(/zinc/img/mb-graphic-style-23.jpg) 0 -100px no-repeat white;
+	background-size: 100%;
+}
+
+.body-contact {
+background: url(/zinc/img/mb-graphic-style-12.jpg) 0 -100px no-repeat white;
+	background-size: 100%;
+}
+
+.body-site {
+background: url(/zinc/img/mb-graphic-style-12.jpg) 0 -100px no-repeat white;
+	background-size: 100%;
+}
+
+.body-subscribe {
+background: url(/zinc/img/mb-graphic-style-19.jpg) 0 -100px no-repeat white;
+	background-size: 100%;
+}
+
+.body-tutorial {
+background: url(/zinc/img/mb-graphic-style-16.jpg) 0 -100px no-repeat white;
+	background-size: 100%;
+}
+
+a {
+	color: var(--colour_three_medium);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	color: var(--universal_dark);
+		  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, h7 {
+font-family: mozilla-headline, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.previous-headers-xyz {
+font-family: dutch-mediaeval-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+background: -webkit-linear-gradient(#eb3131 0%, #370000 100%);
+	background: linear-gradient(#eb3131 0%, #370000 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.pagination {
+	font-size: 1.2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.pagination a {
+	font-size: 1.2em;
+	color: #797968;
+	border-style: solid;
+	border-width: 1px;
+	margin: .5em;
+	font-weight: bold;
+	background-color: white;
+	padding: 0.7rem 1.1rem;
+}
+
+.pagination a:hover {
+}
+
+.pl-font-colorr {
+	color: rgb(161, 140, 113);
+}
+
+#content {
+	background-color: rgba(255, 255, 255, 0.91);
+}
+
+.page-content {
+	background-color: rgba(255, 255, 255, 0.91);
+	padding: 2rem;
+	width: 100%;
+}
+
+/* @end */
+
+/* @group Navigation */
+
+
+.nav-logo-container {
+		padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.main-navigation {
+font-family: mozilla-headline, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-weight: bold;
+text-transform: lowercase;
+}
+
+.main-navigation li{
+	padding: 0.3rem;
+	display: inline;
+	margin-left: 0.3rem;
+	margin-right: 0.3rem;
+	letter-spacing: 0.1rem;
+	text-shadow: 2px 2px 3px #310101;
+	font-size: 1.5rem;
+	text-transform: capitalize;
+}
+
+.main-navigation li a {
+color: var(--universal_light);
+}
+
+.main-navigation a:hover {
+	color: var(--universal_light);
+		  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  border-bottom-width: 1px;
+  text-shadow: 3px 3px 6px #d76565;
+}
+
+
+
+
+
+/* @end */
+
+/* @group Header */
+
+.pagetop-container {
+	background: url(https://malorieblackman.co.uk/zinc/img/mb-graphic-style-22.jpg) 0 -200px;
+	background-size: cover;
+}
+
+.pagetop-container-home {
+	/* background: url(https://malorieblackman.co.uk/zinc/img/mb-graphic-style-22.jpg) ; */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 200%;
+}
+
+.navlogox-inner {
+	background-color: rgba(158, 137, 48, 0.11);
+	background-blend-mode: multiply;
+}
+
+
+.header-container {
+
+}
+
+.header-inner {
+	padding-top: 1rem;
+	padding-bottom: 1.6rem;
+}
+
+.header-container h2 {
+	text-align: center;
+}
+
+.section-header {
+	background: rgba(243, 209, 44, 0.8);
+	background-attachment: fixed;
+	background-blend-mode: overlay;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-transform: capitalize;
+}
+
+.logo-head {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  text-transform: lowercase;
+  font-size: 2.6rem;
+  font-weight: bold;
+  text-shadow: 0 0 1px #423636;
+}
+
+.logo-head:hover {
+	
+}
+
+
+
+.cta-header a {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+}
+
+.cta-header a:hover {
+	color: #f2eedb;
+}
+
+/* @end */
+
+/* @group Footer */
+
+.footer {
+	background-size: cover;
+}
+
+.footer h3 {
+	text-transform: lowercase;
+	color: white;
+}
+
+.complete-footer-container {
+	background: url(https://malorieblackman.co.uk/zinc/img/mb-graphic-style-22.jpg) no-repeat purple;
+	background-size: cover;
+	background-blend-mode: overlay;
+}
+
+
+
+.logo-footer {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  text-transform: lowercase;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+.logo-footer img {
+	padding: 5rem 5rem 0;
+}
+
+.logo-footer:hover {
+		
+}
+
+
+
+
+
+.footerlinks-container {
+	background-color: rgba(90, 12, 79, 0.68);
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	font-family: mozilla-headline, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.footerlinks-container a {
+	color: var(--colour_five_light);
+}
+
+.footerlinks-container a:hover {
+	color: white;
+}
+
+.footlinks-content {
+
+text-align: center;
+color: white;
+}
+
+.credits {
+	font-size: 1rem;
+	line-height: 2.2rem;
+	color: white;
+}
+
+.credits a {
+color: var(--colour_four_light);
+}
+
+.frequency-credit {
+	font-size: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: white;
+}
+
+.frequency-credit a {
+color: var(--colour_four_light);
+}
+
+.socialmedia {
+	
+}
+
+.social-icon {
+	display: inline-block;
+	padding: .3em;
+	font-size: 2em;
+}
+
+.logo-footer {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;	
+}
+
+.logo-footer:hover {
+	opacity: 0.52;
+}
+
+
+
+.logo-socials {
+	background-color: rgba(90, 12, 79, 0.68);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 1rem;
+}
+
+.logo-socials a {
+	color: var(--colour_five_light);
+}
+
+.logo-socials a:hover {
+	color: white;
+}
+
+
+
+.sharing-button-link {
+	font-size: 1.6rem;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+	color: black;
+}
+
+
+.reviews-container {
+	font-size: 1.3rem;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	color: black;
+	border-top: 4px solid white;
+	border-bottom: 4px solid white;
+}
+
+.reviews-container .review-block {
+border-bottom-style: none;
+}
+
+.reviews-container h4 {
+	color: #0d3646;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.mailinglist-footer h3 {
+	color: white;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.inline-container {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.subscribe-link-container {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: black;
+}
+
+.subscribe-link-container h3 a {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2.4rem;
+}
+
+.subscribe-link-container h3 a:hover {
+	color: white;
+}
+
+/* @end */
+
+/* @group Site Common */
+
+#main-content-container {
+	padding: 1em 2em 2em;
+	background-size: cover;
+	background-blend-mode: soft-light;
+}
+
+.button {
+	font-family: mozilla-headline, sans-serif;
+font-weight: bold;
+	background-color: black;
+	color:  var(--colour_five_light);
+}
+
+
+
+.button:hover {
+	background-color: var(--colour_two_medium);
+	color: #F2E8C9;
+}
+
+.content-inner .button {
+	background-color: var(--colour_two_medium);
+	color: white;
+	font-weight: bold;
+}
+
+
+
+.content-inner .button:hover {
+	background-color: black;
+	color: #F2E8C9;
+}
+
+.standard-list-img {
+background-color: red;
+background-blend-mode: multiply;
+}
+
+.image-container-01 {
+background: linear-gradient(138deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.image-container-01 img {
+	width: 100%;
+}
+
+.image-container-01 img:hover {
+ filter: blur(6px);
+  filter: grayscale(1);
+  filter: saturate(2.2);
+  transition: all 1s;
+  mix-blend-mode: hard-light;
+ background-color: red;
+}
+
+.image-container-01 .event-date-block:hover {
+  transition: all 1s;
+  mix-blend-mode: darken;
+  background-color: white;
+}
+
+.block-container-two {
+border-radius: 10px;
+padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.block-photo-inner {
+	margin-bottom: 1rem;
+}
+
+.block-photo-inner img {
+border-radius: 10px;
+}
+
+.embed-code-calendly {
+border-radius: 10px;
+border: 1px solid silver;
+}
+/* Categories - Topics */
+
+.category-badge {
+	display: inline-block;
+	font-size: .9rem;
+	margin-right: .6em;
+	margin-bottom: .6em;
+	text-transform: capitalize;
+	border: 1px solid silver;
+	  	transition: opacity .25s ease-in-out;
+-moz-transition: opacity .25s ease-in-out;
+-webkit-transition: opacity .25s ease-in-out;
+transition:color .25s ease-in-out;
+-moz-transition:color .25s ease-in-out;
+-webkit-transition:color .25s ease-in-out;
+transition:all .25s ease;
+-webkit-transition-delay:all .25s ease;
+-moz-transition-delay:all .25s ease;
+-ms-transition-delay:all .25s ease;
+-o-transition-delay:all .25s ease;
+border-top-style: none;
+border-right-style: none;
+border-left-style: none;
+}
+
+.category-badge a {
+	color: black;
+	font-weight: bold;
+}
+
+.category-badge a:hover {
+	color: #fbaf3f;
+}
+
+
+.category-badge-new-article {
+	font-size: .8em;
+	background-color: red;
+	font-weight: bold;
+	color: white;
+	float: right;
+	display: none;
+}
+
+.category-badge-new-article a {
+	color: white;
+}
+
+.category-title-header {
+	color: silver;
+}
+
+.content-inner .shanville-archive-link {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	background: url(/zinc/img/texture-08.jpg) 0 -100px;
+	font-weight: bold;
+	color: white;
+	font-size: 1.5rem;
+}
+
+.content-inner .shanville-archive-link a {
+	color: var(--colour_five_light);
+}
+
+.content-inner .shanville-archive-link a:hover {
+	color: white;
+}
+
+.readmore-container {
+	display: block;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.readmore {
+	font-size: .8em;
+	background-color: black;
+	font-weight: bold;
+	color: white;
+	display: inline-block;
+	padding: 0.7rem;
+}
+
+.readmore a {
+	color: white;
+}
+
+.content-inner .readmore {
+	font-size: .8em;
+	background-color: black;
+	font-weight: bold;
+	color: white;
+	display: inline-block;
+	padding: 0.7rem;
+}
+
+.content-inner .readmore a {
+	color: white;
+}
+
+.content-inner .readmore a:hover {
+	color: white;
+}
+
+.vrt-pd-1rm {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+
+
+.icon-txt-link {
+	font-weight: bold;
+	margin-right: 1rem;
+	margin-top: 1rem;
+	color: black !important;
+}
+
+a.icon-txt-link {
+	color: black !important;
+}
+
+a.icon-txt-link:hover {
+color: gray !important;
+}
+
+.pagination-container {
+	font-family: mozilla-headline, sans-serif;
+font-weight: 400;
+font-style: normal;
+	padding: 1rem;
+	width: 100%;
+}
+
+.pagination-count {
+	padding-bottom: 0.5rem;
+	margin-bottom: 0.5rem;
+	border-bottom: 1px solid silver;
+}
+
+.pagination-links {
+	font-size: 1.3rem;
+}
+
+.pagination-links strong {
+	border-bottom-style: solid;
+}
+
+.pagination-links a {
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.pagination-links a:hover {
+color: var(--colour_five_light);
+}
+
+/* @end */
+
+/* @group Homepage */
+
+.pagetop-complete-container {
+background-size: cover;
+
+}
+
+
+
+.featured-book-container {
+	background: rgba(255, 83, 0, 0.51);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: overlay;
+	color: white;
+}
+
+.intro-text-container {
+	background-color: white;
+}
+
+.intro-text-inner {
+	font-family: adriane, serif;
+font-weight: 400;
+font-style: normal;
+	background-color: white;
+	text-align: center;
+	font-size: 1.5rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.featured-book-inner {
+	padding: 2rem;
+}
+
+.featured-book-container h2 {
+	margin-top: 1rem;
+	font-size: 2.6em;
+}
+
+.featured-book-container h6 {
+font-family: polymath-text, sans-serif;
+font-weight: 500;
+font-style: normal;
+margin-bottom: -1rem;
+text-transform: uppercase;
+}
+
+.book-intro-excerpt-long {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 1.1em;
+	color: white;
+}
+
+.book-intro-excerpt-long h4 {
+	font-size: 1.6em;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	color: white;
+}
+
+.author-home-container {
+	background-color: white;
+	padding: 3em;
+}
+
+.home-books-container {
+}
+
+.home-books-container-inner {
+		padding-top: 2em;
+	padding-bottom: 2em;
+	background-color: #bf6b03;
+	background-image: url(/zinc/bg/col-01.jpg);
+	background-size: cover;
+	background-blend-mode: soft-light;
+	color: #edf4f2;
+}
+
+.home-books-container h2 {
+	color: #edf4f2;
+	margin-bottom: 1em;
+}
+
+.blog-home-container {
+	padding-top: 3em;
+	padding-bottom: 3em;
+	background-color: var(--colour_two_medium);
+	background-size: cover;
+}
+
+.blog-home-container a:hover {
+	color: white;
+}
+
+
+.blog-home-container .readmore a:hover {
+	border-bottom-color: #edf4f2;
+	color: white;
+}
+
+
+
+.blog-home-container h2 {
+	text-align: center;
+	font-size: 2rem;
+	color: var(--colour_four_light);
+}
+
+.home-bio {
+	font-size: 1.2em;
+	line-height: 1.6;
+	padding: 2rem 2rem 0;
+}
+
+.hide-element {
+	color: rgba(255, 255, 255, 0);
+}
+
+.mailing-list-container {
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+}
+
+
+.mailing-list-containerxxx {
+	text-align: center;
+	color: var(--colour_two_medium);
+	padding-top: 3rem;
+	padding-bottom: 4rem;
+	background-size: cover;
+	background: var(--colour_four_light);
+	background-repeat: no-repeat;
+}
+
+.mailing-list-container h3 {
+	color: var(--universal_dark);
+	font-weight: bold;
+	text-transform: lowercase;
+}
+
+.book-block-display-home {
+	text-align: center;
+	color: #edf4f2;
+	margin-bottom: 1em;
+}
+
+.book-block-display-home a {
+	text-align: center;
+	color: #edf4f2;
+}
+
+.book-block-display-home .book-title {
+	text-align: center;
+	color: #edf4f2;
+	font-weight: bold;
+	padding: 1em;
+}
+
+.book-col-inner {
+	padding: 0.3rem;
+}
+
+.box-shadow-book {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 80px 60px rgba(0, 0, 0, 0.12)
+;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.box-shadow-book:hover {
+  box-shadow:
+  0 0px 0px rgba(0, 0, 0, 0.034),
+  0 0px 0px rgba(0, 0, 0, 0.048),
+  0 0px 0px rgba(0, 0, 0, 0.06),
+  0 0px 0px rgba(0, 0, 0, 0.072),
+  0 0px 0px rgba(0, 0, 0, 0.086),
+  0 0px 0px rgba(0, 0, 0, 0.12)
+;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.blog-home-story {
+	padding: 1em;
+}
+
+.blog-home-text {
+	padding: 1em;
+	color: white;
+}
+
+.blog-home-text h3 {
+color: var(--colour_four_light);
+font-size: 2.4rem;
+}
+
+.blog-home-text h3 a {
+	color: var(--colour_four_light);
+}
+
+
+
+.author-intro {
+}
+
+.author-intro h2 {
+font-size: 3rem;
+color: var(--colour_two_medium);
+font-style: italic;
+}
+
+.hero-block-home {
+	position: relative;
+	background-color: var(--colour_two_medium);
+	background-blend-mode: hard-light;
+}
+
+.orbit-container {
+	background-color: var(--colour_two_medium);
+	background-blend-mode: hard-light;
+}
+
+.orbit-image {
+	background-image: url(/zinc/img/malorie-blackman-hp-01-lowres.jpg);
+}
+
+.orbit-slide {
+	background-color: var(--colour_two_medium);
+	background-blend-mode: hard-light;
+}
+
+
+.slide-content {
+font: 2rem,;
+position: absolute;
+bottom: 0%;
+text-align: center;
+color: white;
+text-transform: none;
+padding: 2rem;
+background-color: rgba(128, 7, 76, 0.85);
+margin-right: 2rem;
+	margin-left: 2rem;
+}
+
+.brand-story-home {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	color: white;
+	font-size: 1.1rem;
+	background-blend-mode: multiply;
+	background: url(/zinc/img/malorie-hp.jpg) no-repeat;
+	background-size: cover;
+	min-height: 30rem;
+}
+
+.brand-story-home a {
+	color: var(--colour_five_light);
+	font-weight: bold;
+	font-style: italic;
+}
+
+.brand-story-home a:hover {
+	color: white;
+}
+
+.brand-story-home h3 {
+	color: var(--colour_two_medium);
+}
+
+.books-x8-wall {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	background-image: url(https://malorieblackman.co.uk/zinc/img/mb-graphic-style-02.jpg);
+	background-size: 200%;
+}
+
+.news-home-head {
+	padding: 2rem 1em;
+	text-transform: uppercase;
+}
+
+.news-home-head h2 {
+color: var(--universal_dark);
+font-size: 2.4rem;
+}
+
+/* @end */
+
+/* @group Contact */
+
+.contact-intro {
+	margin-bottom: 2em;
+	border-bottom: 1px solid silver;
+	text-align: center;
+}
+
+.vspace1em {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+label {
+font: 1.2rem mozilla-headline, sans-serif;
+margin-bottom: .5em;
+}
+
+.formfield {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+/* @end */
+
+/* @group Blog */
+
+.content-listing {
+	margin-top: 1em;
+	margin-bottom: 2em;
+
+}
+
+.article-text {
+	padding-top: 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.article-text h3 {
+line-height: 110%;
+	color: var(--colour_one_dark);
+font-size: 2.1rem;
+}
+
+
+
+.article-text h3 a {
+	color: var(--colour_one_dark);
+}
+
+.article-text h3 a:hover {
+	color: var(--colour_three_medium);
+}
+
+.entry-date {
+	font-family: mozilla-headline, sans-serif;
+	display: inline-block;
+	padding: 0.3rem;
+}
+
+
+
+
+
+.content-listing .entry-date {
+	color: var(--colour_three_medium);
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+.read-more {
+	font-family: mozilla-headline, sans-serif;
+font-weight: 400;
+font-style: normal;
+	display: inline-block;
+	padding: 0.5rem;
+	font-size: 1rem;
+	font-weight: bold;
+text-transform: uppercase;
+}
+
+.read-more a {
+	color: var(--colour_two_medium);
+}
+
+.read-more a:hover {
+	color: var(--colour_one_dark);
+}
+
+
+
+.share-icons {
+	margin-top: 2em;
+	padding-top: 2em;
+}
+
+.share-icons h5 {
+	color: var(--colour_one_dark);
+	font-size: 1.5rem;
+}
+
+.news-sidebar-story {
+	padding-bottom: 1em;
+	padding-top: 1.6em;
+}
+
+.news-sidebar-story h4 a {
+	color: #b09e5b;
+}
+
+.news-sidebar-story h4 a:hover {
+	color: #bf6b03;
+}
+
+
+
+.sidebar-header {
+	color: black;
+	margin-top: 1.6em;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.title-date {
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+.title-date h3 {
+	font-size: 2.5rem;
+	color: var(--colour_one_dark);
+	line-height: 103%;
+}
+
+.content-inner a {
+	color: var(--colour_two_dark);
+}
+
+.content-inner a:hover {
+	color: black;
+}
+
+.article-image {
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+.blog-list-image {
+background-image: url(/zinc/bg/sky-01.jpg);
+mix-blend-mode: none;	
+}
+
+.blog-list-image:hover {
+background-image: url(/zinc/bg/sky-01.jpg);
+mix-blend-mode: luminosity;	
+}
+
+.video-fluid {
+	margin-top: 2em;
+}
+
+#blogx3-container {
+	margin-top: 2em;
+}
+
+#blogx3-container h3 {
+	font-size: 1.6rem;
+	line-height: 110%;
+}
+
+/* @end */
+
+/* @group Reviews */
+
+.review-intro
+ {
+	padding: 1rem;
+	border: 1px solid #a0612b;
+	text-align: center;
+}
+
+.review-intro h5
+ {
+	color: #A66D03;
+	font-size: 1.6rem;
+}
+
+.title-date-review h4
+ {
+	color: black;
+	font-size: 1.6rem;
+}
+
+.title-date-review .entry-date
+ {
+	color: black;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-size: 0.8rem;
+}
+
+.review-readlink {
+	color: black;
+	margin-top: 0;
+	margin-top: 1rem;
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group Books */
+
+.book-excerpt {
+	color: black;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.book-title-page {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.book-title-page .category {
+font-family: mozilla-headline, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.book-title-page h2 {
+	font-size: 3.6rem;
+	color: var(--colour_one_dark);
+	line-height: 1%;
+	line-height: 101%;
+	margin-bottom: 1rem;
+}
+
+.book-title-page a {
+	color: black;
+
+	font-weight: bold;
+}
+
+.category-series {
+	
+}
+
+.category-series a {
+	color: red;
+	background-color: black;
+	padding: .6em;
+}
+
+.category-series a:hover {
+	
+}
+
+/* Book Series Links */
+
+.book-series {
+	text-align: center;
+}
+
+.channel-categories-group {
+	font-family: mozilla-headline, sans-serif;
+font-weight: 400;
+font-style: normal;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.category-link {
+	display: inline-block;
+	padding: 0.3em;
+	font-weight: bold;
+
+}
+
+.category-link a {
+	color: red;
+	border-bottom: 1px solid black;
+}
+
+.category-link a:hover {
+	color: black;
+	border-bottom: 1px solid red;
+}
+
+.series-header {
+	text-align: center;
+}
+
+.audio-file {
+	padding: 1em;
+	background-color: white;
+}
+
+.goodreads-block {
+	background-color: white;
+	padding: 1em;
+}
+
+.goodreads-block h3 {
+	background-color: white;
+	padding: 1em;
+	text-align: center;
+	font-size: 1.4em;
+}
+
+#goodreads-widget {
+	background-color: transparent;
+}
+
+.featured-reviews {
+	margin: 2em 0;
+}
+
+.featured-reviews h4 {
+text-align: center;
+}
+
+.review-block {
+	padding: 1em;
+	border-bottom: 1px solid #b09e5a;
+}
+
+.review-source {
+	font-weight: bold;
+}
+
+.rounded {
+  border-radius: 2em;
+}
+
+.book-cover {
+  margin-bottom: 1rem;
+}
+
+.content-inner-book h1,h2,h3,h4,h5 {
+color: var(--colour_one_dark);
+}
+
+.content-inner-book h3 {
+	color: black;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.book-index-series {
+	padding: 0.5rem;
+}
+
+.book-index-series h4 {
+	padding: 0.5rem;
+		text-align: center;
+}
+
+.category-link-books {
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.2rem 0.6rem;
+	font-size: 1.2rem;
+}
+
+.category-link-books a {
+	font-weight: bold;
+	color: black;
+}
+
+.category-link-books a:hover {
+	color: var(--colour_five_light);
+}
+
+.series-header {
+	color: var(--colour_five_light);
+}
+
+.series-header h2 {
+	color: var(--colour_one_dark);
+	font-size: 2.6rem;
+}
+
+/* @end */
+
+/* @group Site */
+
+.consent-request-block {
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid silver;
+}
+
+.author-bio-block {
+	margin-bottom: 1em;
+	padding: 2rem;
+}
+
+.author-photo-bio {
+	margin-bottom: 1rem;
+}
+
+.embed-fluid {
+	margin-top: 3rem;
+}
+
+
+
+
+
+.fluid-book-container {
+	padding: 1rem;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.fluid-book-container h3 {
+	font-size: 1.7rem;
+	color: maroon;
+}
+
+.content-fluid-image {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+
+.content-fluid-image img {
+	text-align: center;
+	width: 100%;
+}
+
+.ep-textclip {
+text-fill-color: transparent;
+    background-clip: text;
+	background-repeat: repeat-y;
+background-position: left bottom;
+background-size: 1200px auto;
+background-image: url(electricpicnic.ie/assets/images/2025/brand-background.jpg);
+	text-shadow: 0 0 rgba(0,0,0,0.1);
+}
+
+.subscribe-intro {
+	padding-bottom: 2rem;
+}
+
+/* @end */
+
+
+/* @group Legacy Content */
+
+.legacy-content {
+
+}
+
+.legacy-content p {
+	width: 100%;
+	display: inline-block;
+}
+
+.legacy-content p img {
+text-align: center;
+}
+
+/* @end */
+
+
+
+
+
+
+
+/* @group Shanville Monthly */
+
+.shanville-archive-years {
+	text-align: center;
+}
+
+/* @end */
+
+/* @group Video HP */
+
+/* --------------- VIDEO --------------- */
+
+.text-animation {
+  width: 100%;
+  text-align: center;
+}
+
+.feature-video {
+  z-index: -1;
+  mix-blend-mode: screen;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.video-block-home {
+	overflow: hidden;
+	position: relative;
+	background-image: url(zinc/video/vx-04.jpg);
+	background-size: cover;
+}
+
+.feature-video-player {
+	  object-fit: cover;
+  background-size: cover;
+}
+
+.feature-video-player-xxxx {
+	  width: 100vw;
+	  object-fit: cover;
+  background-size: cover;
+  height: 55vh;
+  background-blend-mode: color;
+  background-color: #f6ae35;
+}
+
+.video-block-inner {
+position: absolute;
+top: 15%;
+left: 50%;
+transform: translateY(-50%);
+transform: translateX(-50%);
+width: 100%;
+text-align: center;
+}
+
+.vbtext {
+	font-family: "dashiell-fine", serif;
+	font-style: normal;
+	font-size: 3.6rem;
+	mix-blend-mode: color;
+}
+
+.anx-welcome {
+	text-transform: lowercase;
+	letter-spacing: 1rem;
+	font-size: 1.6rem;
+	font-style: italic;
+}
+
+.anx-shanville {
+	letter-spacing: 2rem;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.video-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+		background: linear-gradient(206deg, #ff573c 6.9%, #FFEB33 28%, #00E5FF 54.2%);
+	mix-blend-mode: overlay;
+	z-index: -99;
+}
+
+.video-overlay-xxxx {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: linear-gradient(206deg, #ff573c 6.9%, #FFEB33 28%, #00E5FF 54.2%);
+	mix-blend-mode: overlay;
+	z-index: -99;
+}
+/* --------------- VIDEO --------------- */
+
+.hero-section {
+  position: relative;
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: red;
+}
+
+.hero-section-text {
+  position: relative;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  z-index: 2;
+}
+
+.hero-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+}
+
+/* @end */
+
+/* @group Covers */
+
+.covers-countries {
+	margin-bottom: 2rem;
+}
+
+.covers-countries .category-link {
+
+}
+
+.category-link-country {
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.2rem 0.6rem;
+}
+
+.category-link-country a {
+	font-weight: bold;
+	color: black;
+}
+
+.category-link-country a:hover {
+	color: var(--colour_five_light);
+}
+
+.covers-links {
+
+}
+
+.covers-links a {
+color: var(--colour_five_light);
+font-weight: bold;
+}
+
+.bookcover-image-container {
+
+}
+
+.cover-image-container img {
+	width: 100%;
+}
+
+.category-series-covers {
+border-top: 1px solid silver;
+padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+}
+
+.category-country-covers {
+border-top: 1px solid silver;
+padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+}
+
+.list-menu {
+border-bottom: 1px solid silver;
+padding-bottom: 0.5rem;
+padding-top: 0.5rem;
+list-style-type: none;
+}
+
+.list-menu li {
+list-style-type: none;
+display: inline-block;
+margin-right: 1rem;
+	margin-left: 1rem;
+font-weight: bold;
+font-size: 1.3rem;
+}
+
+.list-menu li a {
+	color: var(--colour_five_light);
+}
+
+.list-menu li a:hover {
+	color: black;
+}
+
+.list-title {
+font-weight: bold;
+text-transform: capitalize;
+}
+
+/* @end */
+
+/* ---------------DEV--------------- */
+
+/* @group HFX 2 */
+
+.color img{
+filter: grayscale(100%);
+-webkit-filter: grayscale(0%);
+-webkit-transition: all 1s ease;
+	background-color: #40729b;
+}
+
+.color img:hover{
+filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
+}
+
+.grow img{
+transition: 1s ease;
+}
+
+.grow img:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}
+
+
+
+.colour-bg-001 {
+-webkit-transition: all .5s ease-out allow-discrete;
+-moz-transition: all .5s ease-out allow-discrete;
+-o-transition: all .5s ease-out allow-discrete;
+transition: all .5s ease-out allow-discrete;
+}
+
+.colour-filter-001 {
+-webkit-transition: all .5s ease-out allow-discrete;
+-moz-transition: all .5s ease-out allow-discrete;
+-o-transition: all .5s ease-out allow-discrete;
+transition: all .5s ease-out allow-discrete;
+mix-blend-mode: none;
+}
+
+.colour-filter-001:hover {
+	mix-blend-mode: overlay;
+}
+
+.shanville-archive-month-cover {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.title-overlay {
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  bottom: 50%;
+  z-index: 10;
+  text-transform: uppercase;
+  font: 1.3rem "dashiell-fine", serif;
+	mix-blend-mode: overlay;
+}
+
+
+.logo-head {
+  height: auto;
+  filter: drop-shadow(0 0 0 #fff) brightness(1);
+  transition: all 0.3s ease;
+}
+
+.logo-head:hover {
+  transition: all 0.3s ease;
+  opacity: 0.7;
+}
+
+.cyber-image {
+  height: auto;
+  filter: contrast(100%) brightness(100%);
+  transition: all 0.25s ease;
+  position: relative;
+  background-color: red;
+}
+
+
+
+.cyber-image:hover {
+  filter: grayscale(40%) contrast(150%) brightness(120%) 
+         saturate(140%) hue-rotate(15deg);
+  animation: cyber-glitch 4s infinite;
+}
+
+@keyframes cyber-glitch {
+  0% {
+    filter: grayscale(40%) contrast(150%) brightness(120%) 
+           saturate(140%) hue-rotate(15deg);
+  }
+  15% {
+    filter: grayscale(50%) contrast(170%) brightness(130%) 
+           saturate(160%) hue-rotate(-15deg);
+  }
+  25% {
+    filter: grayscale(40%) contrast(150%) brightness(120%) 
+           saturate(140%) hue-rotate(15deg);
+  }
+  35% {
+    filter: grayscale(60%) contrast(160%) brightness(110%) 
+           saturate(120%) hue-rotate(25deg);
+  }
+  50% {
+    filter: grayscale(40%) contrast(150%) brightness(120%) 
+           saturate(140%) hue-rotate(15deg);
+  }
+  65% {
+    filter: grayscale(30%) contrast(180%) brightness(125%) 
+           saturate(170%) hue-rotate(-25deg);
+  }
+  85% {
+    filter: grayscale(40%) contrast(150%) brightness(120%) 
+           saturate(140%) hue-rotate(15deg);
+  }
+  100% {
+    filter: grayscale(40%) contrast(150%) brightness(120%) 
+           saturate(140%) hue-rotate(15deg);
+  }
+}
+
+
+
+
+/* @end */
+
+/* @group MOBILE NAV */
+
+
+
+.offcanvas-full-screen {
+  position: fixed;
+  z-index: 1;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background: var(--colour_two_dark);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+  overflow-y: auto;
+  font-family: mozilla-headline, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+[data-whatinput='mouse'] .offcanvas-full-screen {
+  outline: 0;
+}
+
+.offcanvas-full-screen.is-transition-overlap {
+  z-index: 26;
+}
+
+.offcanvas-full-screen.is-transition-overlap.is-open {
+  box-shadow: 0 0 10px rgba(10, 10, 10, 0.7);
+}
+
+.offcanvas-full-screen.is-open {
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.offcanvas-full-screen.is-open ~ .off-canvas-content {
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.offcanvas-full-screen.is-transition-push::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 1px;
+  box-shadow: 0 0 10px rgba(10, 10, 10, 0.7);
+  content: " ";
+}
+
+.offcanvas-full-screen.is-transition-overlap.is-open ~ .off-canvas-content {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+}
+
+.offcanvas-full-screen-inner {
+  padding: 3rem 1rem 1rem;
+  text-align: center;
+}
+
+.offcanvas-full-screen-menu {
+  margin: 0;
+  list-style-type: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.offcanvas-full-screen-menu > li {
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+[data-whatinput='mouse'] .offcanvas-full-screen-menu > li {
+  outline: 0;
+}
+
+.offcanvas-full-screen-menu > li > a {
+  display: block;
+  padding: 1rem;
+  line-height: 1;
+}
+
+.offcanvas-full-screen-menu input,
+.offcanvas-full-screen-menu select,
+.offcanvas-full-screen-menu a,
+.offcanvas-full-screen-menu button {
+  margin-bottom: 0;
+}
+
+.offcanvas-full-screen-menu > li {
+  -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.offcanvas-full-screen-menu > li > a {
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.offcanvas-full-screen-menu a {
+  color: white;
+}
+
+.offcanvas-full-screen-menu a:hover {
+  color: var(--colour_four_light);
+}
+
+.offcanvas-full-screen-close {
+  color: white;
+  font-size: 5rem;
+}
+
+.offcanvas-full-screen-close:hover {
+  color: var(--colour_four_light);
+}
+
+.mobile-nav-rk {
+	background-color: var(--colour_two_dark);
+	margin-top: -2rem;
+	font-size: 1.5rem;
+	padding: 1rem;
+}
+
+.hamburger-rk {
+	color: var(--universal_light);
+	font: 1.8rem mozilla-headline, sans-serif;
+	font-weight: bold;
+}
+
+.hamburger-rk:hover {
+	color: var(--colour_four_light);
+}
+
+/* @end */
+
+/* @group Events */
+
+/* EVENTS */
+
+.event-date-block {
+		font-family: mozilla-headline, sans-serif;
+		font-weight: 400;
+		font-style: normal;
+	background-color: white;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-style: solid;
+	border-color: white;
+	width: 10rem;
+	text-align: center;
+}
+
+.event-date-block:hover {
+	background-color: white;
+	mix-blend-mode: overlay;
+}
+
+.event-date-month {
+	text-align: center;
+}
+
+.event-date-day {
+	font-size: 2.5rem;
+}
+
+.event-date-year {
+
+}
+
+.event-information-page {
+	margin-bottom: 2rem;
+}
+
+.event-information-cell {
+	border-left: 1px solid silver;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.event-information-page h4 {
+	padding-left: 2rem;
+}
+
+.event-page-date {
+padding-top: 0;
+padding-right: 2rem;
+padding-left: 2rem;
+font-size: 1.2rem;
+}
+
+.event-page-time {
+padding-top: 0;
+padding-right: 2rem;
+padding-left: 2rem;
+font-size: 1.2rem;
+}
+
+.event-page-location {
+padding-top: 0;
+padding-right: 2rem;
+padding-left: 2rem;
+font-size: 1.2rem;
+}
+
+.iov-container {
+  position: relative;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: transparent;
+}
+
+.overlay-content {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay-content-3x {
+  font-family: bc-novatica-cyr, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.overlay-link {
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+	text-shadow: 3px 3px 20px #022a0f;
+}
+
+.overlay-link a {
+	color: var(--colour_five_light);
+}
+
+.overlay-link:hover {
+	color: var(--universal_light);
+}
+
+.summary-listing {
+	color: var(--universal_dark);
+	padding-bottom: 1rem;
+	font-size: 1.2rem;
+}
+
+/* @end */
+
+/* ---------------SECTION SPECIFIC--------------- */
+
+/* @group Holding Page */
+
+.holdingpage {
+	background-color: black;
+}
+
+.holdingpage .logo-headx {
+	background-color: black;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.holdingpage .complete-footer-container {
+	padding-bottom: 2em;
+	color: #b09e5b;
+	background-size: cover;
+	padding-top: 0;
+	background-color: black;
+}
+
+.holdingpage #main-content-container {
+	padding: 6rem 4em 6em;
+	background-color: white;
+}
+
+/* @end */
+
+/* ---------------MEDIA QUERIES--------------- */
+
+/* Small only */
+
+@media screen and (max-width: 39.9375em) {
+body {
+background: url(/zinc/img/mb-graphic-style-04.jpg) no-repeat white;
+		background-size: 250%;
+}
+
+.nav-logo-container {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+
+}
+
+.page-content {
+	background-color: rgba(255, 255, 255, 0.91);
+	padding: 1rem;
+}
+
+#main-content-container {
+	padding: 1em 1em 2em;
+	background-size: cover;
+	background-blend-mode: soft-light;
+}
+
+.logo-head {
+	margin-top: 3rem;
+}
+
+.body-home {
+background: url(/zinc/img/mb-graphic-style-22.jpg) 0 0 no-repeat white;
+		background-size: 180%;
+}
+
+.body-about {
+background: url(/zinc/img/mb-graphic-style-10.jpg) 0 0 no-repeat white;
+		background-size: 180%;
+}
+
+.body-books {
+background: url(/zinc/img/mb-graphic-style-04.jpg) 0 0 no-repeat white;
+		background-size: 180%;
+}
+
+.body-news {
+background: url(/zinc/img/mb-graphic-style-20.jpg) 0 0 no-repeat white;
+		background-size: 180%;
+}
+
+.body-events {
+background: url(/zinc/img/mb-graphic-style-21.jpg) 0 0 no-repeat white;
+		background-size: 180%;
+}
+
+.body-extras {
+background: url(/zinc/img/mb-graphic-style-23.jpg) 0 0 no-repeat white;
+		background-size: 180%;
+}
+
+.body-contact {
+background: url(/zinc/img/mb-graphic-style-12.jpg) 0 0 no-repeat white;
+		background-size: 180%;
+}
+
+.body-site {
+background: url(/zinc/img/mb-graphic-style-12.jpg) 0 0 no-repeat white;
+		background-size: 100%;
+}
+
+.body-subscribe {
+background: url(/zinc/img/mb-graphic-style-19.jpg) 0 0 no-repeat white;
+		background-size: 180%;
+}
+}
+
+/* Medium and up */
+
+@media screen and (min-width: 40em) {
+
+}
+
+/* Medium only */
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+body {
+background: url(/zinc/img/mb-graphic-style-04.jpg) no-repeat white;
+		background-size: 120%;
+}
+}
+
+/* Large and up */
+
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
