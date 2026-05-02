@@ -2350,6 +2350,10 @@ background: url(/zinc/img/mb-graphic-style-04.jpg) no-repeat white;
     opacity: 0.9;
     text-shadow: 0 2px 8px rgba(0,0,0,0.6);
 }
+.hero-text-right{
+	left: initial;
+	right: 8%;
+}
 
 /* MOBILE */
 @media (max-width: 768px) {
@@ -2365,11 +2369,20 @@ background: url(/zinc/img/mb-graphic-style-04.jpg) no-repeat white;
         left: 5%;
         right: 5%;
         max-width: 100%;
-    }    .hero-text p {
+    }
+	.hero-text-right{
+	left: 40%;
+        max-width: 100%;
+}
+
+	    .hero-text p {
         font-size: medium;
         width: 50%;
     }
 
+.hero-text-right p{
+	width: 100%;
+}
     .hero-text span {
         font-size: 14px;
     }
