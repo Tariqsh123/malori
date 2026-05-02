@@ -979,17 +979,20 @@ font-style: italic;
 }
 
 .orbit-container {
-	background-color: var(--colour_two_medium);
-	background-blend-mode: hard-light;
+	background-color: #888d9d;
+	/* background-blend-mode: hard-light; */
+	height: 700px !important;
 }
 
 .orbit-image {
-	background-image: url(/zinc/img/malorie-blackman-hp-01-lowres.jpg);
+	/* background-image: url(images/author.png); */
+	height: 700px;
+	width: auto;
 }
 
 .orbit-slide {
-	background-color: var(--colour_two_medium);
-	background-blend-mode: hard-light;
+	background-color: #888d9d;
+	/* background-blend-mode: hard-light; */
 }
 
 
@@ -2303,3 +2306,25 @@ background: url(/zinc/img/mb-graphic-style-04.jpg) no-repeat white;
 
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+.hero-image{
+	height: 1000px;
+	width: 100%;
+	background-image: url(images/author.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+@media(max-width:768px){
+	.pagetop-container-home {
+	background: url(https://malorieblackman.co.uk/zinc/img/mb-graphic-style-22.jpg) ;
+}
+.orbit-image {
+    height: auto;
+    width: auto;
+}
+.hero-image {
+    height: 205px;
+    background-size: contain;
+    margin-top: -5px;
+}
+}
